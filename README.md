@@ -1,3 +1,9 @@
+# App Description and Overview
+This app is a clone from a React Tutorial. The app consists of a budget manager that can be customized
+manually. Custom hooks and components are used to display the necessary budget cards and information.
+Bootstrap is used for the app's CSS.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

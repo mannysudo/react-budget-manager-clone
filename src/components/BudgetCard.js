@@ -1,4 +1,3 @@
-import React from "react";
 import { Button, Card, ProgressBar, Stack } from "react-bootstrap";
 import { currencyFormatter } from "../utils";
 
@@ -19,16 +18,15 @@ export default function BudgetCard({
   }
 
   return (
-    <Card className={classNames.join("")}>
+    <Card className={classNames.join(" ")}>
       <Card.Body>
         <Card.Title className="d-flex justify-content-between align-items-baseline fw-normal mb-3">
           <div className="me-2">{name}</div>
           <div className="d-flex align-items-baseline">
-            {currencyFormatter.format(amount)} /{" "}
+            {currencyFormatter.format(amount)}
             {max && (
               <span className="text-muted fs-6 ms-1">
-                {" "}
-                /{currencyFormatter.format(max)}
+                / {currencyFormatter.format(max)}
               </span>
             )}
           </div>
